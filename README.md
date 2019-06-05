@@ -5,7 +5,7 @@ An IOT enabled tote bag!
 
 # Workshop Materials
 
-If you are making this Smart Tote in a workshop, click [here]().
+If you are making this Smart Tote in a workshop, click [here](https://github.com/sreejagpt/smart-tote/wiki).
 
 # Requires
 - [Mu Editor](https://codewith.mu/)
