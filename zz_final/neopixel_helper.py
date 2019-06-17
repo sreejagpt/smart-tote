@@ -2,7 +2,7 @@ import neopixel
 import board
 
 # Initialize the output pin on the Gemma M0 that is connected to the NeoPixel
-pixel_pin = board.D1
+pixel_pin = board.D0
 
 # The number of NeoPixels
 num_pixels = 1
@@ -21,10 +21,5 @@ def red():
 def blue():
     pixels.fill((0, 0, 255))
 
-def increase_brightness():
-    currentBrightness = pixels.brightness;
-    pixels.brightness = currentBrightness * 2
-
-def decrease_brightness():
-    currentBrightness = pixels.brightness;
-    pixels.brightness = currentBrightness / 2
+def set_brightness(brightness):
+    pixels.brightness = brightness;
