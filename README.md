@@ -9,7 +9,7 @@ When you're done, your smart-tote should look like this:
 
 # Workshop Materials
 
-If you are making this smart-tote in a workshop, click [here](https://github.com/sreejagpt/smart-tote/wiki).
+If you are making this smart-tote in a workshop, click [here](https://github.com/sreejagpt/smart-tote/wiki/Creative-Coding-With-Wearable-Technology:-A-Workshop).
 
 # Requires
 - [Mu Editor](https://codewith.mu/)
