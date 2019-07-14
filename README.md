@@ -7,6 +7,12 @@ When you're done, your smart-tote should look like this:
 
 //TODO GIF
 
+# Clone
+
+To start the workshop, you must have a working copy of this codebase on your machine. In a directory where you wish to store the code, run the following in your terminal:
+
+`git clone git@github.com:sreejagpt/smart-tote.git`
+
 # Workshop Materials
 
 If you are making this smart-tote in a workshop, click [here](https://github.com/sreejagpt/smart-tote/wiki/Creative-Coding-With-Wearable-Technology:-A-Workshop).
