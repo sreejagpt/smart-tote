@@ -11,7 +11,7 @@ BLUE = (0, 0, 255)
 PURPLE = (180, 0, 255)
 
 # Initialize the output pin on the Gemma M0 that is connected to the NeoPixel
-pixel_pin = board.D0
+pixel_pin = board.D1
 
 # The number of NeoPixels
 num_pixels = 1
