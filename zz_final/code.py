@@ -1,3 +1,8 @@
+"""
+One of many potential creative solutions for the smart tote - make the LED light up in rainbow
+colours in normal light, and green in dim light. The dimmer it is outside, the brighter the light gets.
+"""
+
 import board
 import analogio
 import time
@@ -15,9 +20,14 @@ def calculate_brightness(volts):
 while True:
     neopixel_helper.off();
     volts = analog_voltage(photocell)
-    neopixel_helper.green();
-    print('Photocell voltage: {0}V'.format(volts));
-    brightness = calculate_brightness(volts);
-    print("Brightness: ", brightness);
+    led_brightness = calculate_brightness(volts);
+    
+    # Brightness is always inversely proportional to ambient light.
     neopixel_helper.set_brightness(brightness);
+    
+    if volts < VOLTAGE_IN_NORMAL_LIGHT:
+        neopixel_helper.green()
+    else:
+        neopixel_helper.rainbow()
+        
     time.sleep(1.0);
