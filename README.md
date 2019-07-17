@@ -15,7 +15,7 @@ To start the workshop, you must have a working copy of this codebase on your mac
 
 # Workshop Materials
 
-If you are making this smart-tote in a workshop, click [here](https://github.com/sreejagpt/smart-tote/wiki/Creative-Coding-With-Wearable-Technology:-A-Workshop).
+If you are making this smart-tote in a workshop, click [here](https://github.com/sreejagpt/smart-tote/wiki/).
 
 # Requires
 - [Mu Editor](https://codewith.mu/)
