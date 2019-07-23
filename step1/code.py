@@ -10,7 +10,7 @@ we can tell when it gets brighter or darker relative to the room
 
 """
 
-photocell = analogio.AnalogIn(board.A1);
+photocell = analogio.AnalogIn(board.A2);
 
 """
 A function that calculates the voltage measured across the light sensor
