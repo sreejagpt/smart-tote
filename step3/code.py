@@ -9,7 +9,7 @@ import analogio
 import time
 import neopixel_helper
 
-photocell = analogio.AnalogIn(board.A1)
+photocell = analogio.AnalogIn(board.A2)
 
 # Replace 999999 with your voltage in normal light value from Step1 below
 VOLTAGE_IN_NORMAL_LIGHT = 999999;
