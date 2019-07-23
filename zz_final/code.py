@@ -8,7 +8,7 @@ import analogio
 import time
 import neopixel_helper
 
-photocell = analogio.AnalogIn(board.A1)
+photocell = analogio.AnalogIn(board.A2)
 VOLTAGE_IN_NORMAL_LIGHT = 2.85;
 
 def analog_voltage(adc):
