@@ -15,8 +15,11 @@ led.direction = digitalio.Direction.OUTPUT
 
 while True:
     # Turn LED on by setting led.value to True below
-    led.value =
+    # CODE GOES BELOW THIS LINE
+
     time.sleep(0.5)
+
     # Turn LED off by setting led.value to False below. This will make the LED blink periodically.
-    led.value =
+    # CODE GOES BELOW THIS LINE
+
     time.sleep(0.5)
