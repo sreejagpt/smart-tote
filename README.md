@@ -4,8 +4,7 @@ Smart-tote is an IOT enabled tote bag that lights up when as it gets darker outs
 This repository contains the code that you will be running on your Adafruit Gemma M0 microcontroller.
 
 When you're done, your smart-tote should look like this:
-
-//TODO GIF
+<img src="https://github.com/sreejagpt/smart-tote/blob/master/images/daniel_gif.gif" alt="wearing the smart tote" width=200px/>
 
 # Clone
 
