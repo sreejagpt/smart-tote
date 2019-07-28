@@ -36,7 +36,7 @@ while True:
     led_brightness = calculate_brightness(volts);
     
     # Brightness is always inversely proportional to ambient light.
-    neopixel_helper.set_brightness(brightness);
+    neopixel_helper.set_brightness(led_brightness);
     
     if volts < VOLTAGE_IN_NORMAL_LIGHT:
         neopixel_helper.green()
